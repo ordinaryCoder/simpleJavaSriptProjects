@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>SmartWatch Details</title>
+<link href="style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+
+<script type="text/javascript" src="index.js"></script>
+
+</head>
+
+<body>
+<div>
+<h2 class='center'>SHOPPING OF YOUR CHOICE</h2>
+</div>
+<div class="row">
+  <div class="column left" >
+    <img id ='displaycase' class='parent' src ="asset/bluecase.png" alt="Smartwatch"   style="float:right" ></img>
+	<img id ='heartbeat' class='inner' src='asset/heartbeatpink.gif' alt="heartbeat" style="visibility:hidden"></img>
+	<div id = 'pulse' style='visibility:hidden'></div>
+	<div  id='clock' style='visibility:visible'></div>	
+  </div>
+  <div class="column right" >
+	FIT SMART WATCH
+	<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. </p>
+	
+	<h3>Select Color</h3>
+	<button id='orangecase' class='orangebutton' onClick="reply_click(this.id)"> </button>
+	<button id ='bluecase' class='bluebutton' onClick="reply_click(this.id)"> </button>
+	<button id = 'blackcase' class='blackbutton' onClick="reply_click(this.id)"> </button>
+	<button id = 'pinkcase' class='pinkbutton' onClick="reply_click(this.id)"> </button>
+	
+	<div>
+	<h3>Features</h3>
+	<button id='time' onClick='watchdisplay(this.id)'> Time </button> <button id ='heartrate' onClick="watchdisplay(this.id)"> Heart Rate</button>
+	</div>
+	
+	<button > BUY NOW </button>
+  </div>
+</div>
+
+</body>
+</html>
